@@ -1,0 +1,88 @@
+html {
+    font-size: 16px
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.8
+}
+
+article {
+    margin: 0 auto;
+    max-width: 85vw
+}
+
+article p {
+    text-align: justify
+}
+
+article img {
+    max-width: 100%
+}
+
+article.formTest form {
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+    border: 1px solid;
+    padding: 2rem;
+    border-radius: .25rem
+}
+
+article.formTest form label {
+    margin-right: 1rem
+}
+
+article.formTest form input[type=text],
+article.formTest form input[type=submit] {
+    padding: 1rem;
+    border-radius: .25rem;
+    border: 1px solid
+}
+
+article.formTest form input[type=submit] {
+    background-color: #adff2f
+}
+
+/*# sourceMappingURL=default.css.map */
+
+/* Accessibility Menu Operations */
+
+
+.pagina-acessivel{
+    background-color: #111111!important;
+    
+      color: #FFFFFF !important;
+      border-color: #FFFF00 !important;
+  }
+
+  .pagina-acessivel a, .pagina-acessivel h1 a, .pagina-acessivel h2 a, .pagina-acessivel h3 a, .pagina-acessivel h4 a, .pagina-acessivel i{
+    text-decoration: none;
+    color: #FFFF00!important;
+  }
+  
+  .pagina-acessivel a:hover{
+    text-decoration: underline;
+  }
+  
+  .pagina-acessivel .dropdown-menu{
+    border-color: #FFFFFF!important;
+  }
+  
+  .pagina-acessivel li.active > a{
+    color: 	#E53935!important;
+  }
+  
+  .grayscale{
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    filter: grayscale(100%);
+}
+
+.voice_state{
+}
+
+a{text-decoration: none}
+body.underline a{text-decoration: underline;text-decoration-thickness: 9%;}

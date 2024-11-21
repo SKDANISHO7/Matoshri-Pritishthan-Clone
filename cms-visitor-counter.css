@@ -1,0 +1,14 @@
+ul#visitor_counter {
+    display: flex;
+    justify-content: left;
+    padding-left: 0;
+}
+
+#visitor_counter li {
+    list-style: none;
+ background-color: var(--color-primary);
+    padding: 0% 3%;
+    margin-left: 1%;
+    color: #fff;
+    font-size: 20px;
+}

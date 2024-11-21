@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* .image-container{
+    height: 40rem;
+    position: relative;
+    width: 78%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 12%;
+    
+  border-radius: 10px;
+} */
+
+canvas{
+   width: 100%;
+}
+.front{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+#img{
+    width: 1000px;
+    height: 800px;
+}
+#fullscreen-button{
+    position: relative;
+    top: -100;
+    width: 500px;
+}
